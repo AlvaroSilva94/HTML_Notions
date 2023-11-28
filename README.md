@@ -1,2 +1,2 @@
 # OdinProjectRepo
-Repository to consolidate knowledge from the odin project website creation challenges
+Repository to consolidate knowledge from the odin project website creation challenges - html notions
