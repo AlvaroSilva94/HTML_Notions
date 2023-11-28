@@ -1,0 +1,42 @@
+--------------------
+| HTML NOTES |
+---------------------
+
+We should always name the HTML file that will contain the homepage of our websites index.html. 
+This is because web servers will by default look for an index.html page when users land on our websites 
+– and not having one will cause big problems.
+
+Every HTML page starts with a doctype declaration.
+The doctype’s purpose is to tell the browser what version of HTML it should use to render the document. 
+The latest version of HTML is HTML5, and the doctype for that version is simply <!DOCTYPE html>.
+
+After we declare the doctype, we need to provide an <html> element.
+This is what’s known as the root element of the document, 
+meaning that every other element in the document will be a descendant of it.
+
+lang specifies the language of the text content in that element. 
+
+The <head> element is where we put important meta-information about our webpages, and stuff required for our webpages to render correctly in the browser.
+Inside the <head>, we should not use any element that displays content on the webpage.
+
+We should always have the <meta> tag with the charset encoding of the webpage in the <head> element: <meta charset="utf-8">.
+Setting the encoding is very important because it ensures that the webpage will display special symbols and characters from different languages correctly in the browser.
+
+If we want to create paragraphs in HTML, we need to use the paragraph element, which will add a new line after each of our paragraphs.
+A paragraph element is defined by wrapping text content with a <p> tag.
+
+The <strong> element makes text bold
+The <em> element makes text italic
+
+For auto syntax of comments: Ctrl + /
+
+Unordered lists are created using the <ul> element, and each item within the list is created using the list item element <li>.
+Ordered lists are created using the <ol> element. Each individual item in them is again created using the list item element <li>.
+
+While href specifies the destination link, target specifies where the linked resource will be opened. 
+If it is not present, then, by default, it will take on the _self value which opens the link in the current tab.
+To open the link in a new tab or window (depends on browser settings) you can set it to _blank.
+
+The noopener value prevents the opened link from gaining access to the webpage from which it was opened. 
+The noreferrer value prevents the opened link from knowing which webpage or resource has a link (or ‘reference’) to it. 
+It also includes the noopener behaviour and thus can be used by itself as well.
